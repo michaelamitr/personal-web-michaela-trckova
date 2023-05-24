@@ -1,7 +1,6 @@
 header {
   position: fixed;
   width: 100%;
-  margin-top: -1rem;
   padding: 0;
 }
 
@@ -12,20 +11,19 @@ header {
   align-items: center;
   background-color: #333;
   color: white;
-  height: 4rem;
 }
 
 .brand-title {
   font-size: 1.5rem;
-  margin: 0.5rem;
-  margin-left: 1.5rem;
+  margin: .5rem;
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 200;
 }
 
 .navbar-links {
   height: 100%;
-  display: flex;
-  align-items: center;
-  display: none;
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 300;
 }
 
 .navbar-links ul {
@@ -51,8 +49,9 @@ header {
 
 .toggle-button {
   position: absolute;
+  top: .75rem;
   right: 1rem;
-  display: flex;
+  display: none;
   flex-direction: column;
   justify-content: space-between;
   width: 30px;
@@ -66,28 +65,24 @@ header {
   border-radius: 10px;
 }
 
-@media (min-width: 820px) {
+@media (max-width: 800px) {
   .navbar {
-    flex-direction: row;
-    align-items: center;
-  }
-
-  a {
-    margin: 0 1rem 0 1rem;
+    flex-direction: column;
+    align-items: flex-start;
   }
 
   .toggle-button {
-    display: none;
+    display: flex;
   }
 
   .navbar-links {
-    display: flex;
-    width: auto;
+    display: none;
+    width: 100%;
   }
 
   .navbar-links ul {
-    width: auto;
-    flex-direction: row;
+    width: 100%;
+    flex-direction: column;
   }
 
   .navbar-links ul li {
@@ -95,7 +90,7 @@ header {
   }
 
   .navbar-links ul li a {
-    padding: 1rem;
+    padding: .5rem 1rem;
   }
 
   .navbar-links.active {
