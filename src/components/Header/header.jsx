@@ -1,5 +1,6 @@
 import React from 'react';
 import { useState } from 'react';
+import { NavLink } from 'react-router-dom';
 import './header.css';
 
 export const Header = () => {
@@ -20,19 +21,19 @@ export const Header = () => {
         <div className={rolloutMenu ? 'navbar-links active' : 'navbar-links'}>
           <ul>
             <li>
-              <a href="#introduction">Introduction</a>
+              <NavLink to="/introduction">Introduction</NavLink>
             </li>
             <li>
-              <a href="#skills">Skills</a>
+              <NavLink to="/skills">Skills</NavLink>
             </li>
             <li>
-              <a href="#portfolio">Portfolio</a>
+              <NavLink to="/portfolio">Portfolio</NavLink>
             </li>
             <li>
-              <a href="#aboutMe">About Me</a>
+              <NavLink to="/aboutMe">About me</NavLink>
             </li>
             <li>
-              <a href="#contact">Contact</a>
+              <NavLink to="/contact">Contact</NavLink>
             </li>
           </ul>
         </div>

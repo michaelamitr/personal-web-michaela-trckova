@@ -1,0 +1,14 @@
+#aboutme {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutme--container {
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 400;
+  max-width: 80vw;
+  text-align: center;
+  padding: 3rem;
+  background-color: white;
+}

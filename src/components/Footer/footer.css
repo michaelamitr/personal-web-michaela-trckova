@@ -1,0 +1,18 @@
+footer {
+  height: 3rem;
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 400;
+  font-size: 0.7rem;
+  bottom: 0;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  background-color: #333;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
