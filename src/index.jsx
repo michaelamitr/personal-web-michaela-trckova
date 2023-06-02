@@ -9,16 +9,18 @@ import {
 import './style.css';
 import { Header } from './components/Header/header';
 import { Footer } from './components/Footer/footer';
-import { Introduction } from './sections/Introduction/introduction';
-import { Skills } from './sections/Skills/skills';
-import { AboutMe } from './sections/AboutMe/aboutme';
+import { Home } from './pages/Home/home';
+import { Skills } from './pages/Skills/skills';
+import { Portfolio } from './pages/Portfolio/portfolio';
+import { AboutMe } from './pages/Aboutme/aboutme';
+import { Contacts } from './pages/Contacts/contacts';
 
 const App = () => {
   const location = useLocation();
   return (
     <div>
       <Header />
-      <main>{location.pathname === '/' ? <Introduction /> : <Outlet />}</main>
+      {/* <main>{location.pathname === '/' ? <Home /> : <Outlet />}</main> */}
       <Footer />
     </div>
   );
@@ -30,25 +32,25 @@ const router = createBrowserRouter([
     element: <App />,
     children: [
       {
-        path: 'introduction',
-        element: <Introduction />,
+        path: 'home',
+        element: <Home />,
       },
       {
         path: 'skills',
         element: <Skills />,
       },
-      // {
-      //   path: 'portfolio',
-      //   element: <Portfolio />,
-      // },
       {
-        path: 'aboutme',
+        path: 'portfolio',
+        element: <Portfolio />,
+      },
+      {
+        path: 'about-me',
         element: <AboutMe />,
       },
-      // {
-      //   path: 'contact',
-      //   element: <Contact />,
-      // },
+      {
+        path: 'contacts',
+        element: <Contacts />,
+      },
     ],
   },
 ]);

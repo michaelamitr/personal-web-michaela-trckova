@@ -4,7 +4,7 @@ import './footer.css';
 export const Footer = () => {
   return (
     <footer>
-      <div className="footer-container">Ahoj</div>
+      <p>personal web by Michaela Trčková, 2023</p>
     </footer>
   );
 };
