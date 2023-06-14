@@ -10,6 +10,7 @@ header {
   font-weight: 400;
   justify-content: flex-end;
   font-size: 1.6rem;
+  z-index: 1;
 }
 
 .nav {

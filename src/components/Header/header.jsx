@@ -31,6 +31,11 @@ export const Header = () => {
             </NavLink>
           </li>
           <li>
+            <NavLink to="/about-me" onClick={toggleMenu}>
+              About me
+            </NavLink>
+          </li>
+          <li>
             <NavLink to="/contacts" onClick={toggleMenu}>
               Contacts
             </NavLink>
@@ -49,6 +54,9 @@ export const Header = () => {
           </li>
           <li>
             <NavLink to="/portfolio">Portfolio</NavLink>
+          </li>
+          <li>
+            <NavLink to="/about-me">About me</NavLink>
           </li>
           <li>
             <NavLink to="/contacts">Contacts</NavLink>

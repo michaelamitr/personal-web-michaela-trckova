@@ -1,0 +1,52 @@
+#about-me {
+  background-image: url(./IMG_3481.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+}
+
+.about-me__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 80vw;
+  background-color: rgb(94 110 98);
+  line-height: 25px;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#about-me>h2 {
+  font-family: 'Source Code Pro', sans-serif;
+}
+
+.about-me__text {
+  font-family: 'Montserrat', sans-serif;
+}
+
+@media (min-width: 500px) {
+
+  .about-me__container {
+    max-width: 400px;
+  }
+
+}
+
+@media (min-width: 800px) {
+
+  .about-me__container {
+    max-width: 600px;
+  }
+
+}
+
+
+@media (min-width: 1200px) {
+
+  .about-me__container {
+    max-width: 1000px;
+  }
+
+}

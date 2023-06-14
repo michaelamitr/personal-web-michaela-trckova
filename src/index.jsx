@@ -20,7 +20,7 @@ const App = () => {
   return (
     <div>
       <Header />
-      {/* <main>{location.pathname === '/' ? <Home /> : <Outlet />}</main> */}
+      <main>{location.pathname === '/' ? <Home /> : <Outlet />}</main>
       <Footer />
     </div>
   );
