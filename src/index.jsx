@@ -18,11 +18,11 @@ import { Contacts } from './pages/Contacts/contacts';
 const App = () => {
   const location = useLocation();
   return (
-    <div>
+    <>
       <Header />
       <main>{location.pathname === '/' ? <Home /> : <Outlet />}</main>
       <Footer />
-    </div>
+    </>
   );
 };
 

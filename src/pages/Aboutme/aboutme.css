@@ -2,7 +2,9 @@
   background-image: url(./IMG_3481.jpg);
   background-size: cover;
   background-position: center;
-  height: 100%;
+  min-height: calc(100vh - 6rem);
+  display: flex;
+  align-items: center;
 }
 
 .about-me__container {
@@ -11,19 +13,34 @@
   justify-content: center;
   align-items: center;
   max-width: 80vw;
-  background-color: rgb(94 110 98);
+  min-height: calc(100vh - 6rem);
+  background-color: rgb(5 20 19);
+  opacity: 0.9;
   line-height: 25px;
   color: white;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding: 20px;
+  padding-bottom: 35px;
 }
 
-#about-me>h2 {
-  font-family: 'Source Code Pro', sans-serif;
+#about-me h2 {
+  font-family: var(--headline-text-font);
+  font-weight: 200;
+  font-size: 2rem;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 
 .about-me__text {
-  font-family: 'Montserrat', sans-serif;
+  font-family: var(--text-font);
+  margin-top: 30px;
+}
+
+.czechitas__link {
+  color: var(--link-text)
+}
+
+.czechitas__link:hover {
+  color: var(--link-text-hover);
 }
 
 @media (min-width: 500px) {

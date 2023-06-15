@@ -14,11 +14,15 @@ export const AboutMe = () => {
           abilities and be part of a supportive and friendly team.
         </p>
         <p className="about-me__text">
-          I started my journey with Czechitas. It was my greatest pleasure to be
-          accepted to a Digital Academy – Web. A 300 hrs course, which opened a
-          door into IT for me. I am very grateful for this opportunity. It was a
-          lot of hard work, but it was definitely worth it and I gained a lot of
-          valuable knowledge and practice.
+          I started my journey with{' '}
+          <a href="https://www.czechitas.cz/en" className="czechitas__link">
+            Czechitas
+          </a>
+          . It was my greatest pleasure to be accepted to a Digital Academy –
+          Web. A 300 hrs course, which opened a door into IT for me. I am very
+          grateful for this opportunity. It was a lot of hard work, but it was
+          definitely worth it and I gained a lot of valuable knowledge and
+          practice.
         </p>
         <p className="about-me__text">
           I decided on the front-end because I consider myself as a creative
