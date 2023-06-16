@@ -9,8 +9,7 @@
 
 .home__container {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
   max-width: 90vw;
   min-height: calc(100vh - 6rem);
@@ -20,19 +19,48 @@
   color: white;
   padding: 20px;
   padding-bottom: 35px;
+  gap: 50px;
 }
 
 .description__container {
   display: flex;
   flex-direction: column;
+  gap: 40px;
+  margin-top: 40px;
 }
 
 .home__headline {
   font-family: var(--nav-text-font);
+  font-size: 3.4rem;
+  line-height: 60px;
+  font-weight: 300;
+  border-bottom: 1px solid #77BC01;
+  padding-bottom: 10px;
 }
 
-.home__occupation {}
+.home__occupation {
+  font-family: var(--headline-text-font);
+  margin: 0;
+  font-weight: 200;
+  font-size: 1.7rem;
+}
 
 .michaela__image {
-  width: 500px;
+  width: 300px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #77BC01;
+}
+
+
+@media (min-width: 500px) {
+
+  .home__container {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .michaela__image {
+    width: 300px;
+  }
+
 }
