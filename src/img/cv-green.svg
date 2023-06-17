@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+	<title>icons8-cv-32</title>
+	<defs>
+		<image  width="20" height="25" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZCAMAAAAGyf7hAAAAAXNSR0IB2cksfwAAAHVQTFRFAAAAnsyFn82Gn8yGn8yFn82GoM2Goc2Gns6DmtGIn8yGn82Fn8yGns6Cn82GoM+En82Fns2Gns2GnsqDn82Fns2Gn82Fn8yGm82Gns2Fns2GnsuGn8yFnsyGo8yEn8yEoM6EnsyGn82Fn82GnsyGn8mKnsyFVeRZswAAACd0Uk5TAG/oblD/Tjk6HKvyrSXtG7O0qR3w8bXzJIKBSvh0GXVJvHa67xju8Y9W6AAAAI9JREFUeJyFz4sSgiAQBVA0r7Wgkllp+ehp//+JSmayanlnmGEPyzII8Ynjuisxioc2fl+hz3rz3Q5onYuuGu691x8Em/IbeRaQpFJByJEiMy/SDCW2WsfYMVRomxLsGR5AUwwQEx0hGYapeSjNGJ6675xtzFGUVXUpcLXwhtL03PGw8InaYI3X8t/HOM0sNmHsCIiQeDrYAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+	</style>
+	<use id="Background" href="#img1" x="6" y="3"/>
+</svg>

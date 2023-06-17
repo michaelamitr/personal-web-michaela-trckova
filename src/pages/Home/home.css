@@ -13,7 +13,7 @@
   align-items: center;
   max-width: 90vw;
   min-height: calc(100vh - 6rem);
-  background-color: rgb(5 20 19);
+  background-color: var(--container-background);
   opacity: 0.9;
   line-height: 25px;
   color: white;

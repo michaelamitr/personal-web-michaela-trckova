@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="50" height="50">
+	<title>icons8-mail-50 (1)</title>
+	<defs>
+		<image  width="50" height="36" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAkCAMAAAD8bpkFAAAAAXNSR0IB2cksfwAAAPlQTFRFvvegvvagvvWgvvefvfefvfaeAAAAvPievvagvfegvfag////vfWgqv+qtv+Rvvagvvafvfagvfafu/Ghvfagvvafvvegv/Sfv/ehvvafvvafv/SfwPihvvagvvagvfmdvvafv/Klvvafvfefxv+qzP+Zvvegvfegvfefvvigvfefw/ClvfefvvagvfagvvagwvKdvvefvvafu/ihvvegvfafv/miv/Whvvegvfafv/efvfeevvagvfagvfievPWgvvagxP+cf/9/vvegvvefv/+/sv+Zvfagvvefvvahtv+jvfegvvegvfagvvWivvefvfafvfegwfaeKHhLFwAAAFN0Uk5T//0zwcg6AE3d4l4BcQYHd/HaVROR/KIYRNS+MCm1vS+2FPSACQVm6u5v4xGI+PqZFck7Jqq7LDTC/iBC0NdKG/UNAujsBAry5F8Oic0+N8azIx3b7BY5AAAA3klEQVR4nGNgGAVkAEbSFTIxE6eDhRXOZGNj5yCsgZOLmw3O4eFl4+MXwK9BgJ+PjZcHwRcUYmMTFhHFrYFRTJyNTUISRUxKmo1NRhaXDjl5oKwCMeYguUERqxuUlFXYVNXU0YU1QJ7QxOVTLWCYaOvoIgvp6RsQCE9DIzY2YxME39SMjc3cAo8GILA0sWJjs7aBcGzt2Njs9QmnDQcdRzYnLmcGBhdNVzY3fneCGkDAw9OJzcvb24vNydODKA0g4OPLBgR+/kRrAIGAwCAxS5J0MDDo6hJWMwpGwVAGANqNErwzE+lLAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+	</style>
+	<use id="Background" href="#img1" x="0" y="7"/>
+</svg>

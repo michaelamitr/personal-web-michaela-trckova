@@ -5,6 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@100;200;300;400;500;600;700&display=swap');
 
 :root {
+  --container-background: rgb(5 20 19);
   --light-blue: #005f60;
   --light-green: #77BC01;
   --text-light: #fff4d9;

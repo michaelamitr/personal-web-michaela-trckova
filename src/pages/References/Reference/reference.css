@@ -1,0 +1,80 @@
+.reference__container {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  background-color: var(--container-background);
+  padding: 20px;
+  gap: 20px;
+  margin: 0;
+}
+
+.name {
+  margin: 0;
+  font-family: var(--nav-text-font);
+}
+
+.ref-name-contact__container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  align-items: center;
+}
+
+.ref-contact__container {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.linked-in {
+  width: 35px;
+  height: 35px;
+  background-image: url('../../../img/linkedin-green.svg');
+  background-position: center;
+  background-size: cover;
+  margin: 0;
+}
+
+.github {
+  width: 35px;
+  height: 35px;
+  background-image: url('../../../img/github-green.svg');
+  background-position: center;
+  background-size: cover;
+  margin: 0;
+}
+
+.linked-in:hover {
+  background-image: url('../../../img/linkedin-green-hover.svg');
+  scale: 1.06;
+}
+
+.github:hover {
+  background-image: url('../../../img/github-green-hover.svg');
+  scale: 1.06;
+}
+
+.role {
+  margin: 0;
+  font-family: var(--headline-text-font);
+  font-weight: 200;
+  border-bottom: 1px solid var(--light-green);
+  padding-bottom: 20px;
+}
+
+.reference__text {
+  font-family: var(--text-font);
+  font-weight: 300;
+  line-height: 23px;
+  font-size: 1.05rem;
+}
+
+@media (min-width: 1000px) {
+
+  .reference__container {
+    min-width: 400px;
+
+  }
+
+}
