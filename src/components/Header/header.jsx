@@ -41,6 +41,11 @@ export const Header = () => {
             </NavLink>
           </li>
           <li>
+            <NavLink to="/references" onClick={toggleMenu}>
+              References
+            </NavLink>
+          </li>
+          <li>
             <NavLink to="/" onClick={toggleMenu}>
               Home
             </NavLink>
@@ -60,6 +65,9 @@ export const Header = () => {
           </li>
           <li>
             <NavLink to="/contacts">Contacts</NavLink>
+          </li>
+          <li>
+            <NavLink to="/references">References</NavLink>
           </li>
           <li>
             <NavLink to="/">Home</NavLink>

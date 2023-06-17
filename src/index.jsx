@@ -14,6 +14,7 @@ import { Skills } from './pages/Skills/skills';
 import { Portfolio } from './pages/Portfolio/portfolio';
 import { AboutMe } from './pages/Aboutme/aboutme';
 import { Contacts } from './pages/Contacts/contacts';
+import { References } from './pages/References/references';
 
 const App = () => {
   const location = useLocation();
@@ -50,6 +51,10 @@ const router = createBrowserRouter([
       {
         path: 'contacts',
         element: <Contacts />,
+      },
+      {
+        path: 'references',
+        element: <References />,
       },
     ],
   },

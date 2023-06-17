@@ -26,7 +26,7 @@
   display: flex;
   flex-direction: column;
   gap: 40px;
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 .home__headline {
@@ -52,15 +52,37 @@
 }
 
 
-@media (min-width: 500px) {
+@media (min-width: 730px) {
 
   .home__container {
     flex-direction: row;
     justify-content: center;
+    gap: 0;
   }
 
   .michaela__image {
-    width: 300px;
+    width: 350px;
+    border-left: 1px solid #77BC01;
+    border-bottom: 0;
+    padding-left: 30px;
+    padding-bottom: 0;
+  }
+
+  .home__headline {
+    border: unset;
+  }
+
+  .description__container {
+    max-width: 300px;
+    margin-top: 0;
+  }
+
+}
+
+@media (min-width: 1000px) {
+
+  .michaela__image {
+    width: 500px;
   }
 
 }
