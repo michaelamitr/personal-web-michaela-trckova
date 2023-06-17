@@ -6,7 +6,7 @@ export const Contacts = () => {
     <section id="contact">
       <div className="contact__container">
         <div className="basic-info__container">
-          <h1 className="contact__headline">Michaela Trčková</h1>
+          <h1>Michaela Trčková</h1>
           <div className="li-cv__container">
             <a
               href="https://www.linkedin.com/in/michaela-tr%C4%8Dkov%C3%A1-49a739239/"
