@@ -34,6 +34,7 @@
   background-position: center;
   background-size: cover;
   margin: 0;
+  cursor: pointer;
 }
 
 .github {
@@ -43,6 +44,7 @@
   background-position: center;
   background-size: cover;
   margin: 0;
+  cursor: pointer;
 }
 
 .linked-in:hover {

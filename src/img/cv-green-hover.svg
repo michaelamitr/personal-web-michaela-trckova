@@ -1,9 +1,9 @@
-<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
-	<title>icons8-cv-32 (1)</title>
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="50" height="50">
+	<title>icons8-cv-50 (1)</title>
 	<defs>
-		<image  width="20" height="25" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZCAMAAAAGyf7hAAAAAXNSR0IB2cksfwAAAHVQTFRFAAAAvvigvvegvvifv/Wfvvegvfigu/ahvfaev/WjvfefvfagvvegwPievvegvPWgvfafvfagvvefwfaevvagvvafvvagvfafv/eivvegvfegvfievvagvfagwfSjvfafvPigvfagvvafvvagvfagv/SfvfefdEXgKAAAACd0Uk5TAG/oblD/Tjk6HKvyrSXtG7O0qR3w8bXzJIKBSvh0GXVJvHa67xju8Y9W6AAAAI9JREFUeJyFz4sSgiAQBVA0r7Wgkllp+ehp//+JSmayanlnmGEPyzII8Ynjuisxioc2fl+hz3rz3Q5onYuuGu691x8Em/IbeRaQpFJByJEiMy/SDCW2WsfYMVRomxLsGR5AUwwQEx0hGYapeSjNGJ6675xtzFGUVXUpcLXwhtL03PGw8InaYI3X8t/HOM0sNmHsCIiQeDrYAAAAAElFTkSuQmCC"/>
+		<image  width="36" height="46" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAuCAMAAAB3RUvMAAAAAXNSR0IB2cksfwAAAGlQTFRFvvegvvafv/miv/+qvfWgvfegv/egAAAAvvafvvahvPegvfaevvafvfagvfefv/ahvPaevfegvvegvvagwPieu/ahvfafvfefvvafvfefv/Sfu/ihvvagvfegvficvPWgvfagwfeivvahuGqL4gAAACN0Uk5T/9QsDHHqZAB2V2w6O16APD2EpfUlOf6N/KsYJrrHJzbXIT94fvFNAAAAh0lEQVR4nGNgGBGAkYmZhZWQIjZ2dnYOQoo4gYq4oGxudijgQVPECxTjg7L5YYoE0BQJAsWECFknLMIuKkZIEQMLuzghJRKSUuzSMmJ4HS4rBxaUV8DncEWoqBJBV41sAA9jREhzY4Q4D6oifqgQ/4C4mBTAjeZqBkK+E0AIDS3fDb+4G3oAAH8iCAoiMTdkAAAAAElFTkSuQmCC"/>
 	</defs>
 	<style>
 	</style>
-	<use id="Background" href="#img1" x="6" y="3"/>
+	<use id="Background" href="#img1" x="7" y="2"/>
 </svg>

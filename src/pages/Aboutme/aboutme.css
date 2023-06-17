@@ -37,7 +37,8 @@
 }
 
 .czechitas__link {
-  color: var(--link-text)
+  color: var(--link-text);
+  cursor: pointer;
 }
 
 .czechitas__link:hover {

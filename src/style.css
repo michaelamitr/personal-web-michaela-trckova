@@ -23,6 +23,7 @@
   margin: 0 auto;
   text-decoration: none;
   list-style: none;
+  cursor: default;
 }
 
 html {

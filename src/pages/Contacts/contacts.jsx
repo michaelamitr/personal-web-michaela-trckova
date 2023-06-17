@@ -5,20 +5,46 @@ export const Contacts = () => {
   return (
     <section id="contact">
       <div className="contact__container">
-        <a className="contact-linkedin"></a>
-        <a className="cv"></a>
-        <a className="location">
-          <h3>Prague</h3>
-        </a>
-        <a className="phone">
-          <h3>+420 737 342 237</h3>
-        </a>
-        <a className="email">
-          <h3>misa.trckova.mt@gmail.com</h3>
-        </a>
-        <a className="contact-git-hub">
-          <h3>michaelamitr</h3>
-        </a>
+        <div className="basic-info__container">
+          <h1 className="contact__headline">Michaela Trčková</h1>
+          <div className="li-cv__container">
+            <a
+              href="https://www.linkedin.com/in/michaela-tr%C4%8Dkov%C3%A1-49a739239/"
+              className="contact-item__container"
+            >
+              <div className="contact-linkedin"></div>
+            </a>
+            <a className="contact-item__container">
+              <div className="cv"></div>
+            </a>
+          </div>
+        </div>
+        <div className="rest-info__container">
+          <div className="location">
+            <a className="location-name">
+              <span className="location-icon"></span>
+              Prague
+            </a>
+          </div>
+          <div className="phone">
+            <a className="phone-number">
+              <span className="phone-icon"></span>
+              +420 737 342 237
+            </a>
+          </div>
+          <div className="email">
+            <a href="mailto:misa.trckova.mt@gmail.com" className="email-link">
+              <span className="email-icon"></span>
+              misa.trckova.mt@gmail.com
+            </a>
+          </div>
+          <div className="git-hub">
+            <a href="https://github.com/michaelamitr" className="git-hub__link">
+              <span className="git-hub-icon"></span>
+              michaelamitr
+            </a>
+          </div>
+        </div>
       </div>
     </section>
   );
