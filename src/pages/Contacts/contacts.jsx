@@ -27,7 +27,7 @@ export const Contacts = () => {
             </a>
           </div>
           <div className="phone">
-            <a className="phone-number">
+            <a href="tel:+420737342237" className="phone-number">
               <span className="phone-icon"></span>
               +420 737 342 237
             </a>

@@ -121,6 +121,18 @@
   color: white;
 }
 
+.phone-number,
+.email-link,
+.git-hub__link {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #77bc0145;
+}
+
+.phone-number {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #77bc0145;
+}
+
 .email-link,
 .git-hub__link {
   cursor: pointer;
@@ -194,6 +206,15 @@
 
   .contact__container {
     min-width: 500px;
+  }
+
+  .phone-number {
+    border: 0;
+    padding-bottom: 0;
+  }
+
+  .basic-info__container {
+    padding-bottom: 30px;
   }
 
 }
