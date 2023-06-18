@@ -4,15 +4,14 @@
     "name": "Hike It",
     "web": "https://hike-it.netlify.app/",
     "gitHub": "https://github.com/michaelamitr/Hike_it",
-    "image": "XXX",
+    "image": "./img/hike-it.png",
     "description": "Project processed within Digital Academy: Web. The main goal was to use the skills we reached within the course and get some advanced knowledge regarding front-end development-related technologies. Further develop ourselvsed and cooperate in a team of developers, too. Since hiking is one of my passions, project about long-distance trails was the one to pick."
   },
   {
     "id": 2,
     "name": "Leviexpress",
-    "web": "–",
     "gitHub": "https://github.com/michaelamitr/leviexpress-starter",
-    "image": "XXX",
+    "image": "./img/leviexpress.png",
     "description": "Final revision excersise focused on JS React and JavaScript. Excersise within Digital Academy: Web. Part of preparation to our final test within the course. Work with data from server and usage of API to."
   },
   {
@@ -20,7 +19,7 @@
     "name": "Café Lóra",
     "web": "https://michaelamitr.github.io/cafelora/",
     "gitHub": "https://github.com/michaelamitr/cafelora",
-    "image": "XXX",
+    "image": "./img/cafelora.png",
     "description": "Final revision excersise focused on JavaScript and project component structure. Excersise within Digital Academy: Web. Part of preparation to our final test within the course. Work with data from server and usage of API to."
   },
   {
@@ -28,15 +27,14 @@
     "name": "Tic-Tac-Toe online game",
     "web": "https://michaelamitr.github.io/piskvorky/",
     "gitHub": "https://github.com/michaelamitr/piskvorky",
-    "image": "XXX",
+    "image": "./img/tictactoe.png",
     "description": "Series of homeworks processed within the Digital Academy: Web. Focused on development of HTML, CSS and JavaScript skills, also fetching data from server and using API."
   },
   {
     "id": 5,
     "name": "The Arnica Cottage",
-    "web": "–",
     "gitHub": "https://github.com/michaelamitr/projekt-Chata-Arnica",
-    "image": "XXX",
+    "image": "./img/arnica.png",
     "description": "Final revision excersise focused on HTML and CSS. Excersise within Digital Academy: Web. Part of preparation to our final test within the course."
   }
 ]
