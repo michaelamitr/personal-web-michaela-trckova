@@ -13,9 +13,14 @@ export const Project = ({
       <div className="project-text__container">
         <h2 className="project-name">{name}</h2>
         <div className="project-links__container">
-          <a href={githubLink} className="github-project__link"></a>
+          <a
+            href={githubLink}
+            target="_blank"
+            className="github-project__link"
+          ></a>
           <a
             href={webLink}
+            target="_blank"
             className={webLink ? 'web-project__link' : 'none'}
           ></a>
         </div>

@@ -15,7 +15,11 @@ export const AboutMe = () => {
         </p>
         <p className="about-me__text">
           I started my journey with{' '}
-          <a href="https://www.czechitas.cz/en" className="czechitas__link">
+          <a
+            href="https://www.czechitas.cz/en"
+            className="czechitas__link"
+            target="_blank"
+          >
             Czechitas
           </a>
           . It was my greatest pleasure to be accepted to a Digital Academy –

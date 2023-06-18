@@ -7,8 +7,8 @@ export const Reference = ({ name, role, text, linkedIn, gitHub }) => {
       <div className="ref-name-contact__container">
         <h2 className="name">{name}</h2>
         <div className="ref-contact__container">
-          <a href={linkedIn} className="linked-in"></a>
-          <a href={gitHub} className="github"></a>
+          <a href={linkedIn} target="_blank" className="linked-in"></a>
+          <a href={gitHub} target="_blank" className="github"></a>
         </div>
       </div>
       <h3 className="role">{role}</h3>

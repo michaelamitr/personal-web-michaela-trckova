@@ -12,6 +12,7 @@ export const Contacts = () => {
             <a
               href="https://www.linkedin.com/in/michaela-tr%C4%8Dkov%C3%A1-49a739239/"
               className="contact-item__container"
+              target="_blank"
             >
               <div className="contact-linkedin"></div>
             </a>
@@ -44,7 +45,11 @@ export const Contacts = () => {
             </a>
           </div>
           <div className="git-hub">
-            <a href="https://github.com/michaelamitr" className="git-hub__link">
+            <a
+              href="https://github.com/michaelamitr"
+              className="git-hub__link"
+              target="_blank"
+            >
               <span className="git-hub-icon"></span>
               michaelamitr
             </a>
