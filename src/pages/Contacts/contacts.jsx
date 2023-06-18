@@ -1,5 +1,6 @@
 import React from 'react';
 import './contacts.css';
+// import michaelaCV from '../../../public/MichaelaTrckova-CV.pdf';
 
 export const Contacts = () => {
   return (
@@ -14,7 +15,11 @@ export const Contacts = () => {
             >
               <div className="contact-linkedin"></div>
             </a>
-            <a className="contact-item__container">
+            <a
+              // href={michaelaCV}
+              // target="_blank"
+              className="contact-item__container"
+            >
               <div className="cv"></div>
             </a>
           </div>
