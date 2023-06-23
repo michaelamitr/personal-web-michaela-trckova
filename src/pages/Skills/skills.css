@@ -110,6 +110,34 @@
   height: 35px;
 }
 
+.lr-icon {
+  margin: 0;
+  background-image: url('../../img/lr.svg');
+  background-size: cover;
+  background-position: center;
+  width: 35px;
+  height: 35px;
+}
+
+.ps-icon {
+  margin: 0;
+  background-image: url('../../img/ps.svg');
+  background-size: cover;
+  background-position: center;
+  width: 35px;
+  height: 35px;
+}
+
+.pr-icon {
+  margin: 0;
+  background-image: url('../../img/pr.svg');
+  background-size: cover;
+  background-position: center;
+  width: 35px;
+  height: 35px;
+}
+
+
 @media (min-width: 1000px) {
 
   .skills__container {
