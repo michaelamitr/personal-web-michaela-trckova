@@ -31,8 +31,8 @@ export const Skills = () => {
             <div className="react-icon"></div>React
           </div>
           <p className="skill-text">
-            Communication with server, components, props mechanism,
-            parent-child-child communication, using API, routing.
+            Communication with server, components, props mechanism, data
+            binding, data propagation, using API, routing.
           </p>
         </li>
         <li className="skill-item">
