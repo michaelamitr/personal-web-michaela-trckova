@@ -61,10 +61,9 @@ export const Skills = () => {
             Adobe Lightroom, Photoshop, Premiere Pro
           </div>
           <p className="skill-text">
-            Editing pictures with a realistic touch or in order to make a
-            specific impression. Basic knowledge of Photoshop, usually use for
-            selections and color fill edits. Cutting simple but good looking
-            videos.
+            Editing pictures with a realistic touch or to make a specific
+            impression. Basic knowledge of Photoshop, usually use for selections
+            and color fill edits. Cutting simple but good looking videos.
           </p>
         </li>
       </ul>
