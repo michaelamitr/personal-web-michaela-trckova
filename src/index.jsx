@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { createRoot } from 'react-dom/client';
 import {
   createBrowserRouter,
@@ -16,10 +16,22 @@ import { AboutMe } from './pages/Aboutme/aboutme';
 import { Contacts } from './pages/Contacts/contacts';
 import { References } from './pages/References/references';
 
+const ScrollToTop = () => {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  return null;
+};
+
 const App = () => {
   const location = useLocation();
+
   return (
     <>
+      <ScrollToTop />
       <Header />
       <main>{location.pathname === '/' ? <Home /> : <Outlet />}</main>
       <Footer />

@@ -41,6 +41,17 @@ module.exports = {
           filename: 'img/[name]-[contenthash:6][ext]',
         },
       },
+      {
+        test: /\.(pdf)$/,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: '[name].[ext]',
+            },
+          },
+        ],
+      },
     ],
   },
   plugins: [

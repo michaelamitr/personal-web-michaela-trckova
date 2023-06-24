@@ -1,6 +1,6 @@
 import React from 'react';
 import './contacts.css';
-// import michaelaCV from '../../../public/MichaelaTrckova-CV.pdf';
+import MichaelaCV from '../../../public/MichaelaTrckova-CV.pdf';
 
 export const Contacts = () => {
   return (
@@ -17,8 +17,8 @@ export const Contacts = () => {
               <div className="contact-linkedin"></div>
             </a>
             <a
-              // href={michaelaCV}
-              // target="_blank"
+              href={MichaelaCV}
+              target="_blank"
               className="contact-item__container"
             >
               <div className="cv"></div>
