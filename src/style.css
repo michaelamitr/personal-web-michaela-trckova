@@ -36,3 +36,7 @@ main {
   height: 100%;
   margin-top: 4rem;
 }
+
+body {
+  background-color: var(--light-blue);
+}
