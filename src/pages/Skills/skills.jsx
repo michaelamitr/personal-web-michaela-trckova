@@ -21,8 +21,8 @@ export const Skills = () => {
             Java Script
           </div>
           <p className="skill-text">
-            Communication with server, components, parent-child-child
-            communication, using API, routing, high-order functions, work with
+            Communication with server, components, data binding, data
+            propagation, using API, routing, high-order functions, work with
             arrays, cycles, own DOM elements.
           </p>
         </li>
@@ -32,7 +32,9 @@ export const Skills = () => {
           </div>
           <p className="skill-text">
             Communication with server, components, props mechanism, data
-            binding, data propagation, using API, routing.
+            binding, data propagation, using API, routing. Ability to create a
+            working interactive website and design a logical component
+            structure.
           </p>
         </li>
         <li className="skill-item">
