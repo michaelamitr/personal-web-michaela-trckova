@@ -34,7 +34,7 @@
   font-size: 3.4rem;
   line-height: 60px;
   font-weight: 300;
-  border-bottom: 1px solid #77BC01;
+  border-bottom: 1px solid var(--light-green);
   padding-bottom: 10px;
 }
 
@@ -48,7 +48,7 @@
 .michaela__image {
   width: 300px;
   padding-bottom: 30px;
-  border-bottom: 1px solid #77BC01;
+  border-bottom: 1px solid var(--light-green);
 }
 
 
@@ -62,7 +62,7 @@
 
   .michaela__image {
     width: 350px;
-    border-left: 1px solid #77BC01;
+    border-left: 1px solid var(--light-green);
     border-bottom: 0;
     padding-left: 30px;
     padding-bottom: 0;

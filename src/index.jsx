@@ -15,6 +15,7 @@ import { Portfolio } from './pages/Portfolio/portfolio';
 import { AboutMe } from './pages/Aboutme/aboutme';
 import { Contacts } from './pages/Contacts/contacts';
 import { References } from './pages/References/references';
+import { ErrorPage } from './pages/Errorpage/errorpage';
 
 const ScrollToTop = () => {
   const { pathname } = useLocation();
@@ -43,6 +44,7 @@ const router = createBrowserRouter([
   {
     path: '/',
     element: <App />,
+    errorElement: <ErrorPage />,
     children: [
       {
         path: 'home',
