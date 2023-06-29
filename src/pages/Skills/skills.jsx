@@ -18,7 +18,7 @@ export const Skills = () => {
         <li className="skill-item">
           <div className="skill-heading">
             <div className="js-icon"></div>
-            Java Script
+            JavaScript
           </div>
           <p className="skill-text">
             Communication with server, components, data binding, data
