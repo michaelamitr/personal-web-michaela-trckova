@@ -10,7 +10,7 @@ export const Contacts = () => {
           <h1>Michaela Trčková</h1>
           <div className="li-cv__container">
             <a
-              href="https://www.linkedin.com/in/michaela-tr%C4%8Dkov%C3%A1-49a739239/"
+              href="https://www.linkedin.com/in/michaela-trckova-fe-dev/"
               className="contact-item__container"
               target="_blank"
             >
