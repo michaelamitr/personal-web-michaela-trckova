@@ -48,94 +48,79 @@
   flex-wrap: wrap;
 }
 
-.html-icon {
+.icon {
   margin: 0;
-  background-image: url('../../img/html.svg');
   background-size: cover;
   background-position: center;
   width: 35px;
   height: 35px;
+}
+
+.ts-icon {
+  background-image: url('../../img/ts.png');
+}
+
+.nextjs-icon {
+  background-image: url('../../img/nextjs.svg');
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
+.html-icon {
+  background-image: url('../../img/html.svg');
 }
 
 .css-icon {
-  margin: 0;
   background-image: url('../../img/css.svg');
-  background-size: cover;
-  background-position: center;
-  width: 35px;
-  height: 35px;
 }
 
 .js-icon {
-  margin: 0;
   background-image: url('../../img/javascript.svg');
-  background-size: cover;
-  background-position: center;
-  width: 35px;
-  height: 35px;
 }
 
 .react-icon {
-  margin: 0;
   background-image: url('../../img/react.svg');
-  background-size: cover;
-  background-position: center;
-  width: 35px;
-  height: 35px;
+}
+
+.bootstrap-icon {
+  background-image: url('../../img/bootstrap.png');
+}
+
+.fm-icon {
+  background-image: url('../../img/fm.svg');
+}
+
+.ms-icon {
+  background-image: url('../../img/ms.png');
+}
+
+.jira-icon {
+  background-image: url('../../img/jira.png');
 }
 
 .git-icon {
-  margin: 0;
   background-image: url('../../img/git.svg');
-  background-size: cover;
-  background-position: center;
-  width: 35px;
-  height: 35px;
 }
 
 .github-skill-icon {
-  margin: 0;
   background-image: url('../../img/github-skill.svg');
-  background-size: cover;
-  background-position: center;
-  width: 35px;
-  height: 35px;
 }
 
 .figma-icon {
-  margin: 0;
   background-image: url('../../img/figma.svg');
-  background-size: cover;
-  background-position: center;
-  width: 35px;
-  height: 35px;
 }
 
 .lr-icon {
-  margin: 0;
   background-image: url('../../img/lr.svg');
-  background-size: cover;
-  background-position: center;
-  width: 35px;
-  height: 35px;
 }
 
 .ps-icon {
-  margin: 0;
   background-image: url('../../img/ps.svg');
-  background-size: cover;
-  background-position: center;
-  width: 35px;
-  height: 35px;
 }
 
 .pr-icon {
-  margin: 0;
   background-image: url('../../img/pr.svg');
-  background-size: cover;
-  background-position: center;
-  width: 35px;
-  height: 35px;
 }
 
 
